@@ -1,0 +1,310 @@
+/* Empty. Add your own CSS if you like */
+.padding{
+	/*background-color: #28B463;*/
+	background: url(../img/fondo3.jpg);
+	-webkit-background-size:cover;
+
+
+}
+
+
+.lol{
+background:url(../img/fondoo.jpg);
+  
+}
+.clase{
+  height:394px;
+  width:390px;
+}
+.padding2{
+  background:url(../img/fondo2.jpg);
+  -webkit-background-size:cover;
+}
+.titulo {
+  	font-weight: bold;
+ 	 width:10px;
+  	word-wrap: break-word;
+  	text-align:center;
+}
+.paddinginfo{
+ background:url(../img/azul.png);
+ -webkit-background-size:cover;
+}
+/* WebKit and Opera browsers */
+
+ @-webkit-keyframes spinner {
+   from {
+     -webkit-transform: rotateY(0deg);
+   }
+   to {
+     -webkit-transform: rotateY(-360deg);
+   }
+ }
+
+ /* all other browsers */
+
+ @keyframes spinner {
+   from {
+     -moz-transform: rotateY(0deg);
+     -ms-transform: rotateY(0deg);
+     transform: rotateY(0deg);
+   }
+   to {
+     -moz-transform: rotateY(-360deg);
+     -ms-transform: rotateY(-360deg);
+     transform: rotateY(-360deg);
+   }
+ }
+
+ #stage {
+   margin: 1em auto;
+   -webkit-perspective: 1400px;
+   -moz-perspective: 1400px;
+   -ms-perspective: 1400px;
+   perspective: 1400px;
+   
+   /* Safari */
+-webkit-transform: rotate(-90deg);
+
+/* Firefox */
+-moz-transform: rotate(-90deg);
+
+/* IE */
+-ms-transform: rotate(-90deg);
+
+/* Opera */
+-o-transform: rotate(-90deg);
+ }
+
+ #spinner *{
+   -webkit-animation-name: spinner;
+   -webkit-animation-timing-function: linear;
+   -webkit-animation-iteration-count: infinite;
+   -webkit-animation-duration: 6s;
+   animation-name: spinner;
+   
+   animation-timing-function: linear;
+   animation-iteration-count: infinite;
+   animation-duration: 6s;
+   -webkit-transform-style: preserve-3d;
+   -moz-transform-style: preserve-3d;
+   -ms-transform-style: preserve-3d;
+   transform-style: preserve-3d;
+ }
+
+#spinner *:nth-child(1) { 
+  animation-delay: -1.9s;
+}
+
+#spinner *:nth-child(2) { 
+  animation-delay: -2s;
+}
+
+#spinner *:nth-child(3) { 
+  animation-delay: -2.3s;
+}
+
+#spinner *:nth-child(4) { 
+  animation-delay: -2.4s;
+}
+
+#spinner *:nth-child(5) { 
+  animation-delay: -2.6s;
+}
+
+#spinner *:nth-child(6) { 
+  animation-delay: -2.8s;
+}
+
+#spinner *:nth-child(7) { 
+  animation-delay: -3.0s;
+}
+
+#spinner *:nth-child(8) { 
+  animation-delay: -3.2s;
+}
+
+#spinner *:nth-child(9) { 
+  animation-delay: -3.4s;
+}
+
+ #spinner:hover {
+   -webkit-animation-play-state: paused;
+   animation-play-state: paused;
+ }
+
+span.grey {
+  background: #cccccc;
+  border-radius: 0.8em;
+  -moz-border-radius: 0.8em;
+  -webkit-border-radius: 0.8em;
+  color: #fff;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 1.6em;
+  margin-right: 15px;
+  text-align: center;
+  width: 1.6em; 
+}
+
+span.green {
+  background: #5EA226;
+  border-radius: 0.8em;
+  -moz-border-radius: 0.8em;
+  -webkit-border-radius: 0.8em;
+  color: #ffffff;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 1.6em;
+  margin-right: 15px;
+  text-align: center;
+  width: 1.6em; 
+}
+
+span.blue {
+  background: #5178D0;
+  border-radius: 0.8em;
+  -moz-border-radius: 0.8em;
+  -webkit-border-radius: 0.8em;
+  color: #ffffff;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 1.6em;
+  margin-right: 15px;
+  text-align: center;
+  width: 1.6em; 
+}
+
+span.pink {
+  background: #EF0BD8;
+  border-radius: 0.8em;
+  -moz-border-radius: 0.8em;
+  -webkit-border-radius: 0.8em;
+  color: #ffffff;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 1.6em;
+  margin-right: 15px;
+  text-align: center;
+  width: 1.6em; 
+}
+
+
+.parrafo{
+	font-weight: bold;
+  color:white;
+ text-align: center;
+ text-align: justify;
+	
+}
+.nutrifacts-img {
+  float:center;
+}
+.nutrifacts-img img {
+  width:300px;
+}
+.nutrifacts-html {
+  padding:2px;
+  font-family: "Helvetica";
+  font-size: 12px;
+  float: left;
+  border: 1px solid black;
+  width: 250px;
+  margin-top:2px;
+  color: black;
+  background-color: white;
+
+}
+.nutrifacts-html table {
+  border-collapse: collapse;
+  width:100%;
+
+}
+.nutrifacts-html td {
+  border-top: 1px solid black;
+  background-color: white;
+}
+.nutrifacts-html h2 {
+  margin:0;
+  font-size:29px;
+}
+.separator {
+  height:10px;
+  background-color: black;
+  margin-top:2px;
+}
+.align-text-right {
+  text-align:right;
+
+}
+.info {
+  border-top:1px solid black;
+  padding: 2px;
+  font-size:9px;
+  background-color: white;
+}
+/** Gracias 
+Siganme en Twitter @iframe !! :)
+**/
+
+body{
+background-image: url("fondo.jpg");
+background-size:cover;
+height: 45px;
+}
+
+h2{
+  background-color: green;
+  font-size: 300%;
+  font-family: arial;
+  color: white;
+  text-align: center;
+}
+
+
+
+
+h3{
+  background-color: blue;
+  font-size: 200%;
+  font-family:;
+  color: white;
+}
+
+h5{
+  text-align: center;
+  background-color: white;
+ background-color: 1px solid black;
+
+ color:black;
+ font-size: 150%;
+
+}
+
+img{
+  height: 300%;
+  width: 300px;
+
+}
+
+h4{
+  background-color: green;
+  font-size: 150%;
+  font-family:arial;
+  color: white;
+}
+
+h7{
+  
+  font-size: 300%;
+  font-family:arial;
+  color: white;
+  background-color: green;
+}
+
+
+
+
+
+
+
