@@ -192,7 +192,7 @@ span.pink {
 
 .parrafo{
 	font-weight: bold;
-  color:white;
+  color:black;
  text-align: center;
  text-align: justify;
 	
@@ -207,7 +207,7 @@ span.pink {
   padding:2px;
   font-family: "Helvetica";
   font-size: 12px;
-  float: left;
+  float: center;
   border: 1px solid black;
   width: 250px;
   margin-top:2px;
