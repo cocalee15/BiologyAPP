@@ -1,6 +1,7 @@
 angular.module('starter.controllers', [])
 
 .controller('DashCtrl', function($scope) {})
+.controller('adnCtrl', function($scope) {})
 
 .controller('nutricionalCtrl', function($scope) {})
 .controller('infografiaCtrl', function($scope) {})
